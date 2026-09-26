@@ -1,0 +1,39 @@
+generated: '2026-09-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://dev.apu.apus.edu/tuition-and-financing/tuition-and-fees/
+sources:
+- https://dev.apu.apus.edu/tuition-and-financing/tuition-and-fees/
+name: Apus pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Undergraduate Standard Rate
+  price_text: $360
+  price: 360
+  description: Per Undergraduate Credit Standard Rate
+- name: Undergraduate Preferred Military Rate
+  price_text: $250/credit hour
+  price: 250
+  description: Preferred Military Rate for undergraduate courses
+- name: Undergraduate Veteran Grant Rate
+  price_text: $324/credit hour
+  price: 324
+  description: Veteran Grant rate for undergraduate courses
+- name: Master's Standard Rate
+  price_text: $470
+  price: 470
+  description: Per Master's-Level Credit Standard Rate
+- name: Master's Preferred Military Rate
+  price_text: $250/credit hour
+  price: 250
+  description: Preferred Military Rate for master’s-level courses
+- name: Master's Veteran Grant Rate
+  price_text: $399.50/ credit hour
+  price: 399.5
+  description: Veteran Grant rate for master’s-level courses
+- name: Master's APUS Opportunity Grant Rate
+  price_text: $423/ credit hour
+  price: 423
+  description: APUS Opportunity Grant rate for master’s-level courses
+docs: https://dev.apu.apus.edu/tuition-and-financing/tuition-and-fees/

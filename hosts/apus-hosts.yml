@@ -1,0 +1,155 @@
+generated: '2026-09-25'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 11
+  own: 1
+  other_domain: 10
+  platform: 0
+  roles:
+  - api
+  - docs
+  - identity
+  - other
+  - portal
+  - security
+  - website
+hosts:
+- host: amu.apus.edu
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: apus.edu
+  role: other
+  relation: other-domain
+- host: api.apus.edu
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: apus.edu
+  role: api
+  relation: other-domain
+- host: apu.apus.edu
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: apus.edu
+  role: other
+  relation: other-domain
+- host: catalog.apus.edu
+  found_by:
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: apus.edu
+  role: other
+  relation: other-domain
+- host: clarity.com
+  found_by:
+  - pointer
+  types:
+  - Security
+  serves: []
+  registrable_domain: clarity.com
+  role: security
+  relation: other-domain
+- host: dev.apu.apus.edu
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - namespace-probe
+  - docs-index
+  - well-known
+  types:
+  - GettingStarted
+  serves:
+  - docs
+  title: Your Academic Success Begins Here | American Public University (APU)
+  status: 200
+  registrable_domain: apus.edu
+  role: docs
+  relation: other-domain
+- host: dev.apus.edu
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - namespace-probe
+  - docs-index
+  - well-known
+  types:
+  - DeveloperPortal
+  serves:
+  - docs
+  title: APUS | Accredited Online Education That Empowers Change | American Public Univer
+  status: 200
+  registrable_domain: apus.edu
+  role: portal
+  relation: other-domain
+- host: login.apus.edu
+  found_by:
+  - probed
+  - site-links
+  - well-known
+  types: []
+  serves: []
+  registrable_domain: apus.edu
+  role: identity
+  relation: other-domain
+- host: www.amu.apus.edu
+  found_by:
+  - probed
+  - site-links
+  - docs-index
+  - well-known
+  types: []
+  serves:
+  - docs
+  registrable_domain: apus.edu
+  role: other
+  relation: other-domain
+- host: www.apus.edu
+  found_by:
+  - pointer
+  - probed
+  - docs-index
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Newsroom
+  - Leadership
+  - Documentation
+  - TermsOfService
+  - PrivacyPolicy
+  - Blog
+  serves:
+  - docs
+  - cdn
+  vendor: cloudflare
+  registrable_domain: apus.edu
+  role: docs
+  relation: other-domain
+- host: www.apusapps.com
+  found_by:
+  - pointer
+  types:
+  - Website
+  serves: []
+  registrable_domain: apusapps.com
+  role: website
+  relation: own

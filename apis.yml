@@ -1,23 +1,94 @@
 aid: apus
+
 name: Apus
-description: 'Apus is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://www.apus.edu/images/shared/og/system-default-og.png
+
+description: 'Apus, operating as the American Public University System, is a U.S.-based higher education institution offering online degree programs through its colleges including American Public University and American Military University. The system provides accredited undergraduate and graduate programs, serves military and civilian students, and is a subsidiary of American Public Education, Inc. It emphasizes flexible learning, veteran benefits, and a mission to deliver accessible education worldwide.'
+
 url: https://raw.githubusercontent.com/api-evangelist/apus/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-25 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-25'
+
 modified: '2026-09-25'
+
 tags:
-- Company
-apis: []
+- Education
+- OnlineLearning
+- HigherEd
+- Veterans
+- Accreditation
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: SecurityTxt
+  url: well-known/apus-clarity-security.txt
+- type: WellKnown
+  url: well-known/apus-well-known.yml
+- type: Support
+  url: https://www.amu.apus.edu/help/
+- type: Plans
+  url: plans/apus-plans-pricing.yml
+- type: Security
+  url: https://clarity.com/vdp
+- type: Conformance
+  url: conformance/apus-conformance.yml
+- type: LLMsTxt
+  url: llms/apus-llms.txt
+- type: Hosts
+  url: hosts/apus-hosts.yml
+- type: Vendors
+  url: vendors/apus-vendors.yml
+- type: Newsroom
+  url: https://www.apus.edu/newsroom/
+- type: Leadership
+  url: https://www.apus.edu/about/leadership/board-of-trustees/ms-paula-singer/
+- type: DeveloperPortal
+  url: https://dev.apus.edu/
+- type: GettingStarted
+  url: https://dev.apu.apus.edu/transfer-credit/getting-started/transfer-credit-evaluations/
+- type: VulnerabilityDisclosure
+  url: security/apus-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/apus-domain-security.yml
 - type: Website
-  url: https://www.hiive.com/securities/apus-stock
+  url: https://www.apusapps.com/en/
+- type: Documentation
+  url: https://www.apus.edu/aboutus/
+- type: TermsOfService
+  url: https://www.apus.edu/terms/
+- type: PrivacyPolicy
+  url: https://www.apus.edu/privacy/
+- type: Blog
+  url: https://www.apus.edu/news-center/
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation pages are rendered via JavaScript and no machine‑readable spec was found.
+  evidence:
+    - url: https://dev.apus.edu/
+      status: 200
+  checked: 2026-09-25
+x-enrichment:
+  date: '2026-09-25'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local

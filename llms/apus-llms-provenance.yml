@@ -1,0 +1,6 @@
+generated: '2026-09-25'
+method: probed
+generator: harvest-llms.py
+source: https://www.amu.apus.edu/llms.txt
+bytes: 5759
+note: saved verbatim; the provider's own document

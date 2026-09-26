@@ -1,0 +1,14 @@
+generated: '2026-09-25'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://dev.apus.edu/privacy/
+sources:
+- https://dev.apus.edu/privacy/
+- https://dev.apu.apus.edu/online-colleges-and-schools/school-of-security-global-studies/
+- https://dev.apu.apus.edu/area-of-study/homeland-security/
+- https://dev.apu.apus.edu/area-of-study/security-and-global-studies/
+standards:
+- id: pci-dss
+  conforms: true
+  evidence: We are in compliance with the Payment Card Industry Data Security Standard (PCI-DSS).
+docs: https://dev.apus.edu/privacy/
