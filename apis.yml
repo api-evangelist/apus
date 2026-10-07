@@ -41,6 +41,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- type: Pricing
+  url: https://dev.apu.apus.edu/tuition-and-financing/tuition-and-fees/
 - type: SecurityTxt
   url: well-known/apus-clarity-security.txt
 - type: WellKnown
