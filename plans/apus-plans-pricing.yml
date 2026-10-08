@@ -37,3 +37,52 @@ plans:
   price: 423
   description: APUS Opportunity Grant rate for master’s-level courses
 docs: https://dev.apu.apus.edu/tuition-and-financing/tuition-and-fees/
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - subscription
+  units: []
+  plans:
+  - name: Undergraduate Standard Rate
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Undergraduate Preferred Military Rate
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Undergraduate Veteran Grant Rate
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Master's Standard Rate
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Master's Preferred Military Rate
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Master's Veteran Grant Rate
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
+  - name: Master's APUS Opportunity Grant Rate
+    access: other
+    model: subscription
+    model_how: derived
+    units: []
+    periods: []
